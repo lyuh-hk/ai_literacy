@@ -9,7 +9,7 @@ plt.rc('font',family = 'malgun gothic')
 
 def basic():
 #파일 불러오기
-    df = pd.read_csv('DATA\한국전력공사_지역별 전기차 현황정보_20230331.csv',encoding='EUC-KR')
+    df = pd.read_csv('한국전력공사_지역별 전기차 현황정보_20230331.csv',encoding='EUC-KR')
 
 
     #피벗 해제(열의 데이터로 변환)
@@ -107,7 +107,7 @@ def elec_exe():
     elif menu == "2022년 분기별 분석" :  
         q_mean(df_melt)
     else:
-        st.image('DATA\고래.png',width=500)
+        st.image('고래.png',width=500)
 # while True:
     
 #     menu = int(input("메뉴 입력(1:지역별/년도별 분석, 2: 2023분석, 3:2022년 분기별 분석, 0:종료)"))
