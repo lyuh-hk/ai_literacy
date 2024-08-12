@@ -22,7 +22,7 @@ if user_pw =='1234' and user_id == 'jiknyuh':
     st.sidebar.write(menu)
     
     if menu == '나는 누구일까요':
-        st.header('공사중') 
+        st.header('공부할께 너무너무 많아 슬픈 아줌마입니다 ㅠㅠ') 
     elif menu == '탐색적 분석 : 전기자동차분석':
         ec.elec_exe()
     elif menu == '파이썬기초':
